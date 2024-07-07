@@ -706,7 +706,6 @@ Typed *surrender* to surrender and admited defeat`
       kai: `My Boss is lost in another Multiverse, and I lost connection with him...`,
       runtime: `Hey ${pushname}\n${nowtime}\n\nMy runtime:${runtime(process.uptime())}\n\nPrefix is: *${prefix}*\n\nTime: ${kaitime}\n\nDate: ${kaidate}\n\nToday is ${currentDay}`,
       konichiwa: `Konichiwa ${pushname}, I am ${BotName}. How can I help you?`,
-      sasha: 'Only you...🫶🏻',
       ping: `Hey ${pushname}, Pong ${latensie.toFixed(4)} ms`,
       'good morning': `Good morning to you too ${pushname} ☺️. Have a great day 😇.`,
       ohayo: `Good morning to you too ${pushname} ☺️. Have a great day 😇.`,
