@@ -46,7 +46,7 @@ global.openAiAPI = process.env.OPENAI_API || "sk-7DQYqH9PtFmo3z5n8Ya3T3BlbkFJ4ed
 global.location = process.env.LOCATION || "West Bengal, India";
 global.reactmoji = process.env.REACT_MOJI || "✨";
 global.themeemoji = process.env.THEME_EMOJI || "👾";
-global.vidmenu = { url: process.env.VID_MENU_URL || 'https://media.tenor.com/Jdu0Ov8X2sIAAAAC/A17-Bot.mp4' };
+global.vidmenu = { url: process.env.VID_MENU_URL || 'https://youtu.be/mtCbMn-gkOw?si=Kw0a2z-LKSGdAzX2' };
 
 
 //
