@@ -7014,7 +7014,7 @@ _Click the button below to download_`
                     text: "            Powered by A17 2024"
                   }),
                   header: proto.Message.InteractiveMessage.Header.create({
-                    ...(await prepareWAMessageMedia({ video: { url: 'https://youtube.com/shorts/mtCbMn-gkOw?si=k9hi55tZuF9o6pU6' } }, { upload: A17.waUploadToServer })),
+                    ...(await prepareWAMessageMedia({ video: { url: './Assets/A17video.mp4' } }, { upload: A17.waUploadToServer })),
 
 
                     title: "                      Help Menu",
