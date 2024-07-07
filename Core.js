@@ -60,9 +60,9 @@ const { downloadContentFromMessage,
 let nowtime = '';
 
 if (time2 < "05:00:00") {
-  nowtime = 'Good night 🏙';
+  nowtime = 'Oyasumi 🏙';
 } else if (time2 < "11:00:00") {
-  nowtime = 'Good morning 🌅';
+  nowtime = 'Ohayo 🌅';
 } else if (time2 < "15:00:00") {
   nowtime = 'Good afternoon 🏞';
 } else if (time2 < "18:00:00") {
@@ -70,7 +70,7 @@ if (time2 < "05:00:00") {
 } else if (time2 < "19:00:00") {
   nowtime = 'Good evening 🌆';
 } else {
-  nowtime = 'Good night 🌌';
+  nowtime = 'Oyasumi 🌌';
 }
 
 
