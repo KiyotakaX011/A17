@@ -6695,7 +6695,13 @@ _Click the button below to download_`
 
         try {
           await A17.sendMessage(from, { react: { text: "✨", key: m.key } });
-
+           await sock.sendMessage(
+    id, 
+    { 
+        video: "https://youtube.com/shorts/mtCbMn-gkOw?si=k9hi55tZuF9o6pU6",
+	ptv: false // if set to true, will send as a `video note`
+    }
+)
 
           const helpMenuText = `\nHello ${pushname} Dear...!! ${nowtime} ,
           
