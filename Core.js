@@ -5636,7 +5636,7 @@ _Click the button below to download_`
           "send abusive words in any grup, excepting this grup, and send screenshot proof here"
         ]
         const A17dareww = dare[Math.floor(Math.random() * dare.length)]
-        buffer = await getBuffer(`https://images4.alphacoders.com/101/1016619.jpg`)
+        buffer = await getBuffer(`Thumb`)
         A17.sendMessage(from, { image: buffer, caption: '*You have chosen Dare...*\n\n' + A17dareww }, { quoted: m })
         break;
 
@@ -5740,7 +5740,7 @@ _Click the button below to download_`
           "do you play pubg, if you then send ur id number"
         ]
         const A17truthww = truth[Math.floor(Math.random() * truth.length)]
-        buffer = await getBuffer(`https://images2.alphacoders.com/650/650812.jpg`)
+        buffer = await getBuffer(`BotLogo`)
         A17.sendMessage(from, { image: buffer, caption: '*You have chosen Truth...*\n' + A17truthww }, { quoted: m })
         break;
 
